@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/dungeonIsometricPack/barrel_N.png" type="Texture" id=1]
+[ext_resource path="res://player.gd" type="Script" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 18.0541
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -0.14563, -32.8488 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 78.9223, 370.649, 98.0295, 93.1355 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
