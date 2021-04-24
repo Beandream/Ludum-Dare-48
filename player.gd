@@ -28,3 +28,13 @@ func _physics_process(delta):
 		velocity_y = 0.0
 		
 	
+	
+	if Input.is_action_just_pressed("move_right"):
+		$AnimationPlayer.play("walk")
+		$Position3D/Sprite3D.set_flip_h(false)
+	elif Input.is_action_just_pressed("move_left"):
+		$AnimationPlayer.play("walk")
+		$Position3D/Sprite3D.set_flip_h(true)
+	
+	if (velocity.x == 0 and velocity_y == 0):
+		$AnimationPlayer.play("idle") 
