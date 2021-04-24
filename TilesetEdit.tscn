@@ -12,55 +12,62 @@
 [node name="Floor-Stone" type="Sprite" parent="."]
 texture = ExtResource( 3 )
 region_enabled = true
-region_rect = Rect2( 0, 360.031, 255.777, 155.452 )
+region_rect = Rect2( 0, 340, 256, 170 )
 
 [node name="Floor-Dirt" type="Sprite" parent="."]
 position = Vector2( 384, 0 )
 texture = ExtResource( 6 )
 region_enabled = true
-region_rect = Rect2( 0, 360.031, 255.777, 155.452 )
+region_rect = Rect2( 0, 340, 256, 170 )
 
 [node name="Wall-E" type="Sprite" parent="."]
-position = Vector2( 768, 0 )
+position = Vector2( 768.919, 65.8472 )
 texture = ExtResource( 1 )
+offset = Vector2( 0, -85 )
 region_enabled = true
-region_rect = Rect2( 0, 205.35, 255.777, 310.133 )
+region_rect = Rect2( 0, 170, 256, 340 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Wall-E"]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Wall-E/StaticBody2D"]
-polygon = PoolVector2Array( 6, 26.5, -127, 86.5, -96.5, 102, 32, 39.5 )
+position = Vector2( 1.70447, -85.5323 )
+polygon = PoolVector2Array( -4, 46, -130, 108, -98, 124, 30, 60 )
 
 [node name="Wall-N" type="Sprite" parent="."]
-position = Vector2( 1152, 0 )
+position = Vector2( 1153.15, 92.7168 )
 texture = ExtResource( 4 )
+offset = Vector2( -1.14697, -92.7168 )
 region_enabled = true
-region_rect = Rect2( 0, 205.35, 255.777, 310.133 )
+region_rect = Rect2( 0, 170, 256, 340 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Wall-N"]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Wall-N/StaticBody2D"]
+position = Vector2( -3.55847, -73.5409 )
 polygon = PoolVector2Array( -0.393311, 152.343, -127, 86.5, -91.79, 72.9323, 32.5695, 135.112 )
 
 [node name="Wall-S" type="Sprite" parent="."]
-position = Vector2( 1536, 0 )
+position = Vector2( 1530.5, 70.2826 )
 texture = ExtResource( 2 )
+offset = Vector2( 5.50073, -70.2826 )
 region_enabled = true
-region_rect = Rect2( 0, 205.35, 255.777, 310.133 )
+region_rect = Rect2( 0, 170, 256, 340 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Wall-S"]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Wall-S/StaticBody2D"]
+position = Vector2( 3.37451, -71.3568 )
 polygon = PoolVector2Array( 97.011, 102.898, -31.9254, 40.1354, 1.7865, 23.654, 129.225, 86.417 )
 
 [node name="Wall-W" type="Sprite" parent="."]
-position = Vector2( 1920, 0 )
+position = Vector2( 1918.07, 87.9414 )
 texture = ExtResource( 5 )
+offset = Vector2( 1.93408, -87.9414 )
 region_enabled = true
-region_rect = Rect2( 0, 205.35, 255.777, 310.133 )
+region_rect = Rect2( 0, 170, 256, 340 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Wall-W"]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Wall-W/StaticBody2D"]
-position = Vector2( 96.3257, 47.5683 )
+position = Vector2( 98.5178, -38.8568 )
 polygon = PoolVector2Array( 6, 26.5, -127, 86.5, -96.5, 102, 32, 39.5 )
