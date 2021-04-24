@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-7-Fountain.vox-6e9c880cdfb589f08ed0f50dcbd775ec.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-7-Fountain.vox"
+dest_files=[ "res://.import/dungeon-7-Fountain.vox-6e9c880cdfb589f08ed0f50dcbd775ec.mesh" ]
+
+[params]
+

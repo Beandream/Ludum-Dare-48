@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-43-SmallFountain_Lava.vox-a822fc9c32469c2b8c3193fc955f1e2a.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-43-SmallFountain_Lava.vox"
+dest_files=[ "res://.import/dungeon-43-SmallFountain_Lava.vox-a822fc9c32469c2b8c3193fc955f1e2a.mesh" ]
+
+[params]
+

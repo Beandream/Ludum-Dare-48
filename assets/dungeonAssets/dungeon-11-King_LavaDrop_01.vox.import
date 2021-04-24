@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-11-King_LavaDrop_01.vox-45ca58d83745d30b811f111f887bec8c.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-11-King_LavaDrop_01.vox"
+dest_files=[ "res://.import/dungeon-11-King_LavaDrop_01.vox-45ca58d83745d30b811f111f887bec8c.mesh" ]
+
+[params]
+

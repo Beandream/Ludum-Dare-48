@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-20-Door_Prison_Gold.vox-83d700636299d7e4484c0f62b52ca41a.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-20-Door_Prison_Gold.vox"
+dest_files=[ "res://.import/dungeon-20-Door_Prison_Gold.vox-83d700636299d7e4484c0f62b52ca41a.mesh" ]
+
+[params]
+

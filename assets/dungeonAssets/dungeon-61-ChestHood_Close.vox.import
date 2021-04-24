@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-61-ChestHood_Close.vox-7a64a0d687e1fcfe8c1c76a33782f405.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-61-ChestHood_Close.vox"
+dest_files=[ "res://.import/dungeon-61-ChestHood_Close.vox-7a64a0d687e1fcfe8c1c76a33782f405.mesh" ]
+
+[params]
+

@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-46-LavaCascade.vox-898ae3d1e8c28a364782de245a2c7bfe.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-46-LavaCascade.vox"
+dest_files=[ "res://.import/dungeon-46-LavaCascade.vox-898ae3d1e8c28a364782de245a2c7bfe.mesh" ]
+
+[params]
+

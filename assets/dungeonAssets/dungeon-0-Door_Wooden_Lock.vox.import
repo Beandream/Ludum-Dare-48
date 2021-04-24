@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-0-Door_Wooden_Lock.vox-703d912bf518460b84d4ffb8b587b426.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-0-Door_Wooden_Lock.vox"
+dest_files=[ "res://.import/dungeon-0-Door_Wooden_Lock.vox-703d912bf518460b84d4ffb8b587b426.mesh" ]
+
+[params]
+

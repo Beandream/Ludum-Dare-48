@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-36-Stairs_Low.vox-be365eb77858265b90550d8d5360db6f.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-36-Stairs_Low.vox"
+dest_files=[ "res://.import/dungeon-36-Stairs_Low.vox-be365eb77858265b90550d8d5360db6f.mesh" ]
+
+[params]
+

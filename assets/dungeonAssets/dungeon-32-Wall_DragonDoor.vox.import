@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-32-Wall_DragonDoor.vox-4b8f309375ec1ba3596a9ec14c6d910e.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-32-Wall_DragonDoor.vox"
+dest_files=[ "res://.import/dungeon-32-Wall_DragonDoor.vox-4b8f309375ec1ba3596a9ec14c6d910e.mesh" ]
+
+[params]
+

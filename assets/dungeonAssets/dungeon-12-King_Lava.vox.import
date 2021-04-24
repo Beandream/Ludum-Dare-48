@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-12-King_Lava.vox-a6da4de92c88bf9ed38cdf57a3f8ad58.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-12-King_Lava.vox"
+dest_files=[ "res://.import/dungeon-12-King_Lava.vox-a6da4de92c88bf9ed38cdf57a3f8ad58.mesh" ]
+
+[params]
+

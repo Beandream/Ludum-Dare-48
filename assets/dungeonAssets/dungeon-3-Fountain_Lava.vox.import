@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-3-Fountain_Lava.vox-0249f46e4e5ed9baad54860f627517d9.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-3-Fountain_Lava.vox"
+dest_files=[ "res://.import/dungeon-3-Fountain_Lava.vox-0249f46e4e5ed9baad54860f627517d9.mesh" ]
+
+[params]
+

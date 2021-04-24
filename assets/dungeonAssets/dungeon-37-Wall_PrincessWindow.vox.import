@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-37-Wall_PrincessWindow.vox-9a77de091a6dcaf020b6ab0d3d2b1249.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-37-Wall_PrincessWindow.vox"
+dest_files=[ "res://.import/dungeon-37-Wall_PrincessWindow.vox-9a77de091a6dcaf020b6ab0d3d2b1249.mesh" ]
+
+[params]
+

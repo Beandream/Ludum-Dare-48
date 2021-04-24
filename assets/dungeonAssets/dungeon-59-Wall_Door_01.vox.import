@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-59-Wall_Door_01.vox-b2571a0209dc29e41d78a220b6325337.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-59-Wall_Door_01.vox"
+dest_files=[ "res://.import/dungeon-59-Wall_Door_01.vox-b2571a0209dc29e41d78a220b6325337.mesh" ]
+
+[params]
+

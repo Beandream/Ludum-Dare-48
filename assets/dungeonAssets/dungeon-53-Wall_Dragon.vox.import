@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-53-Wall_Dragon.vox-8eebac55ad05321de36444c6178a081e.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-53-Wall_Dragon.vox"
+dest_files=[ "res://.import/dungeon-53-Wall_Dragon.vox-8eebac55ad05321de36444c6178a081e.mesh" ]
+
+[params]
+

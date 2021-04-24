@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-6-Wall_GardenDoor_01.vox-24460d4a2ffc3d06a3f40f9b3f54451f.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-6-Wall_GardenDoor_01.vox"
+dest_files=[ "res://.import/dungeon-6-Wall_GardenDoor_01.vox-24460d4a2ffc3d06a3f40f9b3f54451f.mesh" ]
+
+[params]
+

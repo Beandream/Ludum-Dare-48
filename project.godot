@@ -14,6 +14,10 @@ config/name="Ludum Dare 48"
 run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/MagicaVoxelImporter/plugin.cfg" )
+
 [input]
 
 move_down={

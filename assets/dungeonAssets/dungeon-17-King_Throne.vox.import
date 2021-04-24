@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-17-King_Throne.vox-c191b0da10fe5ed1046015e6b59c34e7.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-17-King_Throne.vox"
+dest_files=[ "res://.import/dungeon-17-King_Throne.vox-c191b0da10fe5ed1046015e6b59c34e7.mesh" ]
+
+[params]
+

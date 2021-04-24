@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-31-Trap_Arrow.vox-854a4c15cb139b1c542221531e2534b0.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-31-Trap_Arrow.vox"
+dest_files=[ "res://.import/dungeon-31-Trap_Arrow.vox-854a4c15cb139b1c542221531e2534b0.mesh" ]
+
+[params]
+

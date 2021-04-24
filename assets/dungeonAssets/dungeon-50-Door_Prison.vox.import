@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-50-Door_Prison.vox-8a0dd60a36f1de96ba8cc5474dec8394.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-50-Door_Prison.vox"
+dest_files=[ "res://.import/dungeon-50-Door_Prison.vox-8a0dd60a36f1de96ba8cc5474dec8394.mesh" ]
+
+[params]
+

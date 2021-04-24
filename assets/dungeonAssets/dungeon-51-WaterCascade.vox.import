@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-51-WaterCascade.vox-f8f74c84dc4fae576877fba1e079f86f.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-51-WaterCascade.vox"
+dest_files=[ "res://.import/dungeon-51-WaterCascade.vox-f8f74c84dc4fae576877fba1e079f86f.mesh" ]
+
+[params]
+

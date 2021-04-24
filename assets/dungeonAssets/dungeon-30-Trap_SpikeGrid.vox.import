@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-30-Trap_SpikeGrid.vox-f1d325e8b459bfa898d2e423d30621eb.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-30-Trap_SpikeGrid.vox"
+dest_files=[ "res://.import/dungeon-30-Trap_SpikeGrid.vox-f1d325e8b459bfa898d2e423d30621eb.mesh" ]
+
+[params]
+

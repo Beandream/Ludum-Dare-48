@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-24-Torch_03.vox-efce8fe7cb754ccdca62abea3e648e63.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-24-Torch_03.vox"
+dest_files=[ "res://.import/dungeon-24-Torch_03.vox-efce8fe7cb754ccdca62abea3e648e63.mesh" ]
+
+[params]
+

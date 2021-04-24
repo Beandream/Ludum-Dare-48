@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-49-SplitGround_Water.vox-5c256b755f8afe3a36bb9fb043aa090c.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-49-SplitGround_Water.vox"
+dest_files=[ "res://.import/dungeon-49-SplitGround_Water.vox-5c256b755f8afe3a36bb9fb043aa090c.mesh" ]
+
+[params]
+

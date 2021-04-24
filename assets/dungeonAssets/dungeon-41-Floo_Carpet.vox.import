@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-41-Floo_Carpet.vox-d49476f7fd54ad96e8900a78bd9797f7.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-41-Floo_Carpet.vox"
+dest_files=[ "res://.import/dungeon-41-Floo_Carpet.vox-d49476f7fd54ad96e8900a78bd9797f7.mesh" ]
+
+[params]
+

@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-38-Flower_Pot01.vox-4c405fd2ab628522a4077d69cf001d1a.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-38-Flower_Pot01.vox"
+dest_files=[ "res://.import/dungeon-38-Flower_Pot01.vox-4c405fd2ab628522a4077d69cf001d1a.mesh" ]
+
+[params]
+

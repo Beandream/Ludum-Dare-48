@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-48-Ivy_03.vox-2d994b1cd5e502c6bc238d6f29c7390e.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-48-Ivy_03.vox"
+dest_files=[ "res://.import/dungeon-48-Ivy_03.vox-2d994b1cd5e502c6bc238d6f29c7390e.mesh" ]
+
+[params]
+

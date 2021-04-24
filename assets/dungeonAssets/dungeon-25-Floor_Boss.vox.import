@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-25-Floor_Boss.vox-238d6f02f9541ee458fc7439015e11cb.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-25-Floor_Boss.vox"
+dest_files=[ "res://.import/dungeon-25-Floor_Boss.vox-238d6f02f9541ee458fc7439015e11cb.mesh" ]
+
+[params]
+

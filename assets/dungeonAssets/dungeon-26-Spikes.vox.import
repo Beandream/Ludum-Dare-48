@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-26-Spikes.vox-8f542a06050479e3b0a8820eb8bd5a88.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-26-Spikes.vox"
+dest_files=[ "res://.import/dungeon-26-Spikes.vox-8f542a06050479e3b0a8820eb8bd5a88.mesh" ]
+
+[params]
+

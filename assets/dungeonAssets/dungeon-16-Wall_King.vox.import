@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-16-Wall_King.vox-8f002c8ecb50e117b7bc31cf27289719.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-16-Wall_King.vox"
+dest_files=[ "res://.import/dungeon-16-Wall_King.vox-8f002c8ecb50e117b7bc31cf27289719.mesh" ]
+
+[params]
+

@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-39-Princess_Chair.vox-d418e672becb6b628d7c8d684df66ff3.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-39-Princess_Chair.vox"
+dest_files=[ "res://.import/dungeon-39-Princess_Chair.vox-d418e672becb6b628d7c8d684df66ff3.mesh" ]
+
+[params]
+

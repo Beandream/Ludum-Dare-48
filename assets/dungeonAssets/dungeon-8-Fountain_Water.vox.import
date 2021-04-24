@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-8-Fountain_Water.vox-71be9e33745326b17f0ce0be370b30a9.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-8-Fountain_Water.vox"
+dest_files=[ "res://.import/dungeon-8-Fountain_Water.vox-71be9e33745326b17f0ce0be370b30a9.mesh" ]
+
+[params]
+

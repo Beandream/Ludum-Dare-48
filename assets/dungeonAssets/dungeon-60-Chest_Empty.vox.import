@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-60-Chest_Empty.vox-370b69e9e5326e2a767e476b7a08870e.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-60-Chest_Empty.vox"
+dest_files=[ "res://.import/dungeon-60-Chest_Empty.vox-370b69e9e5326e2a767e476b7a08870e.mesh" ]
+
+[params]
+

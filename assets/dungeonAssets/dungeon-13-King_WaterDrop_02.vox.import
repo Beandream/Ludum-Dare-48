@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-13-King_WaterDrop_02.vox-83cd80c396daa595b93384d9317fc9ef.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-13-King_WaterDrop_02.vox"
+dest_files=[ "res://.import/dungeon-13-King_WaterDrop_02.vox-83cd80c396daa595b93384d9317fc9ef.mesh" ]
+
+[params]
+

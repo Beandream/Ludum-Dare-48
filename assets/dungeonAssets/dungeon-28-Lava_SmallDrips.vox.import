@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-28-Lava_SmallDrips.vox-e3ec57fdc53cf989ef051fb0b40fa552.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-28-Lava_SmallDrips.vox"
+dest_files=[ "res://.import/dungeon-28-Lava_SmallDrips.vox-e3ec57fdc53cf989ef051fb0b40fa552.mesh" ]
+
+[params]
+

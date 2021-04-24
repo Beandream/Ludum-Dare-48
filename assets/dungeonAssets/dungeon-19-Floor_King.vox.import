@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-19-Floor_King.vox-c4b95abee10aad96bafd64cabe4909af.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-19-Floor_King.vox"
+dest_files=[ "res://.import/dungeon-19-Floor_King.vox-c4b95abee10aad96bafd64cabe4909af.mesh" ]
+
+[params]
+

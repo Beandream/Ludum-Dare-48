@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-62-Treasure_Interior.vox-12a7766e5fc413208cb2c3ebf7d97d87.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-62-Treasure_Interior.vox"
+dest_files=[ "res://.import/dungeon-62-Treasure_Interior.vox-12a7766e5fc413208cb2c3ebf7d97d87.mesh" ]
+
+[params]
+

@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-9-Floor_Garden.vox-2b0f4f6a404d33e25045ed00ea24173f.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-9-Floor_Garden.vox"
+dest_files=[ "res://.import/dungeon-9-Floor_Garden.vox-2b0f4f6a404d33e25045ed00ea24173f.mesh" ]
+
+[params]
+

@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-21-Wall_BossDoor.vox-fd8d291ec3438d0d1c3a464d091af4a9.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-21-Wall_BossDoor.vox"
+dest_files=[ "res://.import/dungeon-21-Wall_BossDoor.vox-fd8d291ec3438d0d1c3a464d091af4a9.mesh" ]
+
+[params]
+

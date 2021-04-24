@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-47-LavaStream.vox-6d396fca1cd4ea08124fbce217886731.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-47-LavaStream.vox"
+dest_files=[ "res://.import/dungeon-47-LavaStream.vox-6d396fca1cd4ea08124fbce217886731.mesh" ]
+
+[params]
+

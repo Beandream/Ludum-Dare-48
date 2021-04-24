@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-15-Wall_KingDoor.vox-d1389b2bb46e46dc718dcc501212f801.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-15-Wall_KingDoor.vox"
+dest_files=[ "res://.import/dungeon-15-Wall_KingDoor.vox-d1389b2bb46e46dc718dcc501212f801.mesh" ]
+
+[params]
+

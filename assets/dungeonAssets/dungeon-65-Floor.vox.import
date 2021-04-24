@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-65-Floor.vox-f975138fc64413ad5ed62adf0f16e22e.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-65-Floor.vox"
+dest_files=[ "res://.import/dungeon-65-Floor.vox-f975138fc64413ad5ed62adf0f16e22e.mesh" ]
+
+[params]
+

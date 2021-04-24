@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-55-GoldCup.vox-5ed6112acba13d101c8acf273c35ea47.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-55-GoldCup.vox"
+dest_files=[ "res://.import/dungeon-55-GoldCup.vox-5ed6112acba13d101c8acf273c35ea47.mesh" ]
+
+[params]
+

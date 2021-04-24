@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-54-GoldPile.vox-eea6cae0ba2386106e5c05017a46d959.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-54-GoldPile.vox"
+dest_files=[ "res://.import/dungeon-54-GoldPile.vox-eea6cae0ba2386106e5c05017a46d959.mesh" ]
+
+[params]
+

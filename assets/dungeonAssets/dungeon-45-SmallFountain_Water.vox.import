@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-45-SmallFountain_Water.vox-59f70d58d4ec9abd4d1086284d34ba2a.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-45-SmallFountain_Water.vox"
+dest_files=[ "res://.import/dungeon-45-SmallFountain_Water.vox-59f70d58d4ec9abd4d1086284d34ba2a.mesh" ]
+
+[params]
+

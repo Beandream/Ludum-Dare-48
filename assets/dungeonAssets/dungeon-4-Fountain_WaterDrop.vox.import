@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-4-Fountain_WaterDrop.vox-2f8cc7a94b633f4d69d08e4a108a8551.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-4-Fountain_WaterDrop.vox"
+dest_files=[ "res://.import/dungeon-4-Fountain_WaterDrop.vox-2f8cc7a94b633f4d69d08e4a108a8551.mesh" ]
+
+[params]
+

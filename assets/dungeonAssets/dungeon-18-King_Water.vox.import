@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-18-King_Water.vox-ae6f6c62724f136b400dcab1619031d6.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-18-King_Water.vox"
+dest_files=[ "res://.import/dungeon-18-King_Water.vox-ae6f6c62724f136b400dcab1619031d6.mesh" ]
+
+[params]
+

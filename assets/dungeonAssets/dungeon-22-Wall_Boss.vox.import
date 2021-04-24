@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-22-Wall_Boss.vox-57b3d23fcbaa96bfc39aa5238870fd5f.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-22-Wall_Boss.vox"
+dest_files=[ "res://.import/dungeon-22-Wall_Boss.vox-57b3d23fcbaa96bfc39aa5238870fd5f.mesh" ]
+
+[params]
+

@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-27-Floor_Trapped.vox-ade3556a3cf41d260d82ea3f5570ba55.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-27-Floor_Trapped.vox"
+dest_files=[ "res://.import/dungeon-27-Floor_Trapped.vox-ade3556a3cf41d260d82ea3f5570ba55.mesh" ]
+
+[params]
+

@@ -1,0 +1,13 @@
+[remap]
+
+importer="MagicaVoxel-Importer"
+type="Mesh"
+path="res://.import/dungeon-52-WaterStream.vox-879e889ba4d80429e0d7cc2db0c59a50.mesh"
+
+[deps]
+
+source_file="res://assets/dungeonAssets/dungeon-52-WaterStream.vox"
+dest_files=[ "res://.import/dungeon-52-WaterStream.vox-879e889ba4d80429e0d7cc2db0c59a50.mesh" ]
+
+[params]
+
