@@ -9,6 +9,9 @@ export var jump_force := 12.0
 var velocity_y := 0.0
 
 func _physics_process(delta):
+	speed = 7.0
+	if (Input.get_action_strength("run") > 0):
+		speed = speed * 2
 	var direction_ground := Vector2(
 		Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 		Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
