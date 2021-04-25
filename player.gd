@@ -50,4 +50,13 @@ func _physics_process(delta):
 	elif (direction_ground.y != 0):
 		$AnimationPlayer.play("walk")
 	else:
-		$AnimationPlayer.play("idle") 
+		$AnimationPlayer.play("idle")
+
+
+func _on_Area_body_entered(_body):
+	print(get_tree().get_current_scene().get_name())
+	if (get_tree().get_current_scene().get_name() == 'Level 1'):
+		get_tree().change_scene("res://main1.tscn")
+	else:
+		get_tree().change_scene("res://main.tscn")
+	
