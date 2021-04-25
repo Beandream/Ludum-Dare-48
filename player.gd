@@ -9,9 +9,13 @@ export var jump_force := 12.0
 var velocity_y := 0.0
 
 func _physics_process(delta):
-	speed = 7.0
+	var spd = speed
+	var jmpForce = jump_force
+	$AnimationPlayer.playback_speed = 1
 	if (Input.get_action_strength("run") > 0):
-		speed = speed * 2
+		spd = spd * 2
+		jmpForce = jump_force + jump_force / 5
+		$AnimationPlayer.playback_speed = 4
 	var direction_ground := Vector2(
 		Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 		Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
@@ -20,24 +24,30 @@ func _physics_process(delta):
 	if not is_on_floor():
 		velocity_y -= gravity * delta
 		
+	if (Input.get_action_strength("jump") && is_on_floor()):
+		velocity_y = jmpForce
+		
 	var velocity = Vector3(
-		direction_ground.x * speed,
+		(direction_ground.y * spd) + (direction_ground.x * spd),
 		velocity_y,
-		direction_ground.y * speed
+		(direction_ground.y * spd) - (direction_ground.x * spd)
 	)
+	
 	move_and_slide(velocity, FLOOR_NORMAL)
 	
 	if is_on_floor() or is_on_ceiling():
 		velocity_y = 0.0
 		
-	
-	
-	if Input.is_action_just_pressed("move_right"):
+	if (self.global_transform.origin.y < -10):
+		get_tree().reload_current_scene()
+
+	if(direction_ground.x > 0):
 		$AnimationPlayer.play("walk")
 		$Position3D/Sprite3D.set_flip_h(false)
-	elif Input.is_action_just_pressed("move_left"):
+	elif (direction_ground.x < 0):
 		$AnimationPlayer.play("walk")
 		$Position3D/Sprite3D.set_flip_h(true)
-	
-	if (velocity.x == 0 and velocity_y == 0):
+	elif (direction_ground.y != 0):
+		$AnimationPlayer.play("walk")
+	else:
 		$AnimationPlayer.play("idle") 
