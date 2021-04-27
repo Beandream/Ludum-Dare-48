@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Map1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://key.tscn" type="PackedScene" id=3]
 
 [sub_resource type="ProceduralSky" id=1]
 sky_top_color = Color( 0.196078, 0.14902, 0.027451, 1 )
@@ -47,11 +48,14 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.4789, 0.907353, -65.9831 )
 mesh = SubResource( 3 )
 material/0 = SubResource( 4 )
 
-[node name="Area" type="Area" parent="LevelEnd"]
+[node name="LevelEnd" type="Area" parent="LevelEnd"]
 
-[node name="CollisionShape" type="CollisionShape" parent="LevelEnd/Area"]
+[node name="CollisionShape" type="CollisionShape" parent="LevelEnd/LevelEnd"]
 shape = SubResource( 5 )
 
 [node name="Map" parent="." instance=ExtResource( 2 )]
 
-[connection signal="body_entered" from="LevelEnd/Area" to="Player" method="_on_Area_body_entered"]
+[node name="key" parent="." instance=ExtResource( 3 )]
+transform = Transform( 0.0951492, 0, -0.0307672, 0, 0.1, 0, 0.0307672, 0, 0.0951492, -34.215, 1.90012, -29.318 )
+
+[connection signal="body_entered" from="LevelEnd/LevelEnd" to="Player" method="_on_LevelEnd_body_entered"]

@@ -8,6 +8,8 @@ export var jump_force := 12.0
 
 var velocity_y := 0.0
 
+var key = false
+
 func _physics_process(delta):
 	var spd = speed
 	var jmpForce = jump_force
@@ -52,11 +54,13 @@ func _physics_process(delta):
 	else:
 		$AnimationPlayer.play("idle")
 
+func _on_LevelEnd_body_entered(_body):
+	if (key): 
+		if (get_tree().get_current_scene().get_name() == 'Level 1'):
+			get_tree().change_scene("res://main1.tscn")
+		else:
+			get_tree().change_scene("res://main.tscn")
 
-func _on_Area_body_entered(_body):
-	print(get_tree().get_current_scene().get_name())
-	if (get_tree().get_current_scene().get_name() == 'Level 1'):
-		get_tree().change_scene("res://main1.tscn")
-	else:
-		get_tree().change_scene("res://main.tscn")
-	
+
+func _on_key_collected():
+	key = true
