@@ -72,7 +72,9 @@ func _on_LevelEnd_body_entered(_body):
 func onCollect(_emitter, _collecter, emitterLabel):
 	if (emitterLabel == 'key'):
 		key = true
-		$KeyLabel.text += "Key "
+		$KeyLabel.text += "Key\n"
 	elif (emitterLabel == 'key2'):
 		key = true
-		$KeyLabel.text += "Key2 "
+		$KeyLabel.text += "Key2\n"
+	elif (emitterLabel == 'coin'):
+		$KeyLabel.text +=  emitterLabel + "\n"
