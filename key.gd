@@ -16,6 +16,6 @@ func _ready():
 #	pass
 signal collected
 
-func _on_Area_body_entered(body):
+func _on_Area_body_entered(_body):
 	emit_signal("collected")
 	queue_free()
