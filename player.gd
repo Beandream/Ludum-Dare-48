@@ -69,10 +69,10 @@ func _on_LevelEnd_body_entered(_body):
 			get_tree().change_scene("res://main.tscn")
 
 
-func onCollect(emitter, _collecter):
-	if (emitter.get_name() == 'key'):
+func onCollect(_emitter, _collecter, emitterLabel):
+	if (emitterLabel == 'key'):
 		key = true
 		$KeyLabel.text += "Key "
-	elif (emitter.get_name() == 'key2'):
+	elif (emitterLabel == 'key2'):
 		key = true
 		$KeyLabel.text += "Key2 "
