@@ -10,6 +10,11 @@ var velocity_y := 0.0
 
 var key = false
 
+func _ready():
+	var collectables = get_tree().get_nodes_in_group('Collectables')
+	for collectable in collectables:
+		collectable.connect('collected', self, 'onCollect')
+
 func _physics_process(delta):
 	var spd = speed
 	var jmpForce = jump_force
@@ -56,11 +61,18 @@ func _physics_process(delta):
 
 func _on_LevelEnd_body_entered(_body):
 	if (key): 
+		key = false
+		$KeyLabel.text = ""
 		if (get_tree().get_current_scene().get_name() == 'Level 1'):
 			get_tree().change_scene("res://main1.tscn")
 		else:
 			get_tree().change_scene("res://main.tscn")
 
 
-func _on_key_collected():
-	key = true
+func onCollect(emitter, _collecter):
+	if (emitter.get_name() == 'key'):
+		key = true
+		$KeyLabel.text += "Key "
+	elif (emitter.get_name() == 'key2'):
+		key = true
+		$KeyLabel.text += "Key2 "

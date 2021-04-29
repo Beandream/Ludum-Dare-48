@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Map1.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Key.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Collectable.tscn" type="PackedScene" id=3]
 
 [sub_resource type="ProceduralSky" id=1]
 sky_top_color = Color( 0.196078, 0.14902, 0.027451, 1 )
