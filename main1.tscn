@@ -1,8 +1,8 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Map1.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Collectable.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Entities/player/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Levels/Map1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Entities/collectables/Collectable.tscn" type="PackedScene" id=3]
 [ext_resource path="res://assets/otherVoxAssets/key.vox" type="ArrayMesh" id=4]
 
 [sub_resource type="ProceduralSky" id=1]
