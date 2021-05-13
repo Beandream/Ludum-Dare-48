@@ -9,11 +9,10 @@ export var jump_force := 12.0
 var velocity_y := 0.0
 
 var key = false
+var isPlayer = true
 
 func _ready():
-	var collectables = get_tree().get_nodes_in_group('Collectables')
-	for collectable in collectables:
-		collectable.connect('collected', self, 'onCollect')
+	pass
 
 func _physics_process(delta):
 	var spd = speed
@@ -68,17 +67,9 @@ func _on_LevelEnd_body_entered(_body):
 		else:
 			get_tree().change_scene("res://main.tscn")
 
-
-func onCollect(_emitter, _collecter, emitterLabel):
-	if (emitterLabel == 'key'):
-		key = true
-		$KeyLabel.text += "Key\n"
-	elif (emitterLabel == 'key2'):
-		key = true
-		$KeyLabel.text += "Key2\n"
-	elif (emitterLabel == 'coin'):
-		$KeyLabel.text +=  emitterLabel + "\n"
+func collect_key(key):
+	$KeyLabel.text += key.get_name() + "\n"
+	self.key = true
 
 func collect_coin(coin):
-	key = true
 	$KeyLabel.text += coin.get_name() + "\n"

@@ -1,10 +1,9 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Entities/player/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Entities/collectables/Collectable.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Entities/collectables/Key.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Levels/Map.tscn" type="PackedScene" id=3]
-[ext_resource path="res://assets/otherVoxAssets/key.vox" type="ArrayMesh" id=4]
-[ext_resource path="res://Entities/collectables/CoinPile.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Entities/other/Door.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Entities/collectables/Coins.tscn" type="PackedScene" id=6]
 
 [sub_resource type="ProceduralSky" id=1]
@@ -58,65 +57,16 @@ material/0 = SubResource( 4 )
 [node name="CollisionShape" type="CollisionShape" parent="LevelEnd/LevelEnd"]
 shape = SubResource( 5 )
 
-[node name="Collectables" type="Spatial" parent="."]
+[node name="CoinPile" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.14217, 1.25348, -2.5896 )
 
-[node name="key" type="MeshInstance" parent="Collectables"]
-transform = Transform( 0.0879748, 0, -0.047544, 0, 0.1, 0, 0.047544, 0, 0.0879748, -9.27575, 1.97743, 0 )
-mesh = ExtResource( 4 )
-material/0 = null
+[node name="Key" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.549229, -0.237143, -0.801318, 0.30235, 0.95032, -0.0740061, 0.779058, -0.201633, 0.593643, 27.7917, 2.00814, -9.34512 )
 
-[node name="key" parent="Collectables/key" instance=ExtResource( 2 )]
+[node name="Key2" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.549229, -0.237143, -0.801318, 0.30235, 0.95032, -0.0740061, 0.779058, -0.201633, 0.593643, -9.18801, 2.00814, 3.1624 )
 
-[node name="key2" type="MeshInstance" parent="Collectables"]
-transform = Transform( 0.0879748, 0, -0.047544, 0, 0.1, 0, 0.047544, 0, 0.0879748, 1.37572, 1.97743, 0 )
-mesh = ExtResource( 4 )
-material/0 = null
-
-[node name="key" parent="Collectables/key2" instance=ExtResource( 2 )]
-
-[node name="key3" type="MeshInstance" parent="Collectables"]
-transform = Transform( 0.0879748, 0, -0.047544, 0, 0.1, 0, 0.047544, 0, 0.0879748, 1.37572, 1.97743, -6.25972 )
-mesh = ExtResource( 4 )
-material/0 = null
-
-[node name="key2" parent="Collectables/key3" instance=ExtResource( 2 )]
-
-[node name="coins" type="Spatial" parent="Collectables"]
-
-[node name="CoinPile" parent="Collectables/coins" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.87295, 1.26029, 2.01909 )
-
-[node name="CoinPile2" parent="Collectables/coins" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.4674, 1.26029, -8.4187 )
-
-[node name="CoinPile3" parent="Collectables/coins" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.13825, 1.26029, -8.4187 )
-
-[node name="CoinPile4" parent="Collectables/coins" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.13825, 1.26029, -6.84983 )
-
-[node name="CoinPile5" parent="Collectables/coins" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.13825, 1.26029, -5.26213 )
-
-[node name="CoinPile6" parent="Collectables/coins" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5681, 1.26029, -5.26213 )
-
-[node name="CoinPile7" parent="Collectables/coins" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5681, 1.26029, 0.520403 )
-
-[node name="CoinPile8" parent="Collectables/coins" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5681, 1.26029, -2.30933 )
-
-[node name="CoinPile9" parent="Collectables/coins" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5681, 1.26029, -16.8606 )
-
-[node name="CoinPile10" parent="Collectables/coins" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.1724, 1.26029, -37.1191 )
-
-[node name="CoinPile11" parent="Collectables/coins" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.4274, 1.26029, -37.1191 )
-
-[node name="CoinsTest" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.14217, 1.66026, -2.5896 )
+[node name="Door" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.56005, 1.14573, -12.4964 )
 
 [connection signal="body_entered" from="LevelEnd/LevelEnd" to="Player" method="_on_LevelEnd_body_entered"]
