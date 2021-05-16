@@ -40,6 +40,26 @@ func _physics_process(delta):
 		get_tree().reload_current_scene()
 		
 	animatePlayer(direction_ground)
+	
+	animateCamera(delta)
+
+func animateCamera(delta):
+	var to = $CollisionCapsuleShape.global_transform.origin
+	var from = $Position3D/Sprite3D/Camera.global_transform.origin - Vector3(0, 6, 0) # lowering the camera raycast
+	var result = get_world().direct_space_state.intersect_ray(to, from)
+	
+	if (result):
+		if ($Position3D.rotation.x > -1.5):
+			$Position3D.rotation.x -= 1 * delta # move camera up
+		
+			var from2 = $Position3D/Sprite3D/Camera.global_transform.origin - Vector3(0, 6, 0)
+			var result2 = get_world().direct_space_state.intersect_ray(to, from2)
+		
+			if (!result2):
+				$Position3D.rotation.x += 1 * delta # move camera down
+		
+	elif ($Position3D.rotation.x < -0.5):
+		$Position3D.rotation.x += 1 * delta # move camera down
 
 func animatePlayer(dir):
 	if(dir.x > 0):
